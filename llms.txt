@@ -1,0 +1,29 @@
+# Lighter Hours
+
+> AI agents that take the busywork off your team. Lighter Hours designs, builds, and runs agentic automation for growing companies, with guardrails on every build: read-only data access, a second AI that checks every number, low-confidence hand-offs to a person, and a human yes before anything reaches a customer.
+
+The work is proven in production: 30 AI tools and workflows built inside a multi-location franchise brand (anonymized). Highlights:
+
+- Ask your data in plain English: staff ask sales and operations questions and get tables and charts, through a view-only account. 36 of 36 test questions correct before release.
+- A helpdesk that answers, then learns: hundreds of support tickets a month get an instant answer, 24% are fully solved by AI, and staff corrections become help-article fixes every week.
+- A second AI that checks every number: one AI builds reports and payout files, a separate read-only AI verifies them against a second source before they go out.
+
+## Services
+
+- AI Readiness Sprint (2 weeks): staff discovery, every idea scored on four tests, a tool plan, and a one-page AI use policy.
+- First Pilot Build (30 to 60 days): one working AI workflow in your systems, with a baseline metric, blind tests, and a trained champion.
+- Fractional AI Lead (monthly): new workflows each month, monitoring and fixes, and training for each new team.
+
+## Articles
+
+- How I let AI answer support tickets without embarrassing anyone: https://lighterhours.com/articles/ai-support-tickets-without-embarrassment/
+- Before AI touches your numbers, give it a checker: https://lighterhours.com/articles/maker-checker-ai-numbers/
+- Ask your data in plain English: what it takes to build it safely: https://lighterhours.com/articles/ask-your-data-in-plain-english/
+- Which tasks should you hand to AI first? Four tests: https://lighterhours.com/articles/which-tasks-to-hand-to-ai-first/
+- What AI automation really costs a small business: https://lighterhours.com/articles/what-ai-automation-really-costs/
+
+## Links
+
+- Home: https://lighterhours.com/
+- Free AI readiness check: https://lighterhours.com/assessment/
+- Contact: https://lighterhours.com/#contact

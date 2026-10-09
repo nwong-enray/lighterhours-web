@@ -1,0 +1,23 @@
+User-Agent: GPTBot
+User-Agent: CCBot
+User-Agent: Bytespider
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: anthropic-ai
+User-Agent: ClaudeBot
+User-Agent: meta-externalagent
+User-Agent: FacebookBot
+User-Agent: Diffbot
+User-Agent: ImagesiftBot
+User-Agent: Omgilibot
+User-Agent: omgili
+User-Agent: Timpibot
+User-Agent: PetalBot
+User-Agent: cohere-training-data-crawler
+Disallow: /
+
+User-Agent: *
+Allow: /
+
+Host: https://lighterhours.com
+Sitemap: https://lighterhours.com/sitemap.xml
