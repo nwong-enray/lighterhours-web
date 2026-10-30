@@ -1,0 +1,413 @@
+# Lighter Hours
+
+> AI agents that take the busywork off your team, with guardrails, a second checker, and a human yes before anything goes out. Proven on real work.
+
+## Services
+- AI Readiness Sprint (2 weeks): Find the right first projects and set the rules. Staff discovery form and interviews; Every idea scored on the four tests; Tool plan that starts with what you already pay for; One-page AI use policy and guardrails.
+- First Pilot Build (30 to 60 days): Ship one working AI workflow with your team. Built, tested, and running in your systems; Baseline metric measured before and after; Blind tests and human-approval steps; Handoff docs and a trained champion.
+- Fractional AI Lead (Monthly): An ongoing builder for the next pilots and the next teams. New workflows each month; Help-center and data quality loops; Monitoring, alerts, and fixes; Training for each new team.
+
+## Frequently asked questions
+### Is the work on this site real?
+Yes. Every case comes from AI tools we built and run in production at a real company. Details are anonymized to protect that company, so names, vendors, and business figures are left out. On a call we can walk through how each system works.
+
+### What does it take on our side?
+Less than you'd think in software, more than you'd think in access. AI usage runs from cents to a few dollars per job. The real work is admin access to your systems, vendor approval for their data, and agreeing on what AI may send, write, and spend. We use the AI you already pay for where it fits, and Claude or Gemini for custom builds, on company accounts only.
+
+### How long until we see results?
+Small tools like drafted replies or tracker digests take 1 to 2 weeks. A full pilot with tests and a baseline metric takes 30 to 60 days. Bigger builds like plain-English data questions take 6 to 10 weeks.
+
+### Will AI replace our staff?
+That isn't the goal. The work here took busywork off people (sorting tickets, chasing status, double-checking numbers) so they could spend time on customers and judgment calls. A person stays accountable for every outcome.
+
+## Articles
+
+### You didn't start a business to be the middleman on email
+https://lighterhours.com/articles/stop-being-the-middleman-on-email/
+
+Most of your inbox is waiting on someone else's answer. Here's how we built AI that chases those answers for us, and what the research says it costs.
+
+It's 9 PM and you're still in your inbox. Not because the work is hard. Because one email needs an answer from your bookkeeper, another needs a number from your manager, and a third needs a yes from a partner who hasn't replied since Tuesday. You're not doing the work. You're the switchboard.
+
+We know that feeling well, because we lived in it. So we built our way out of it, and this is what we learned.
+
+## It's not just you
+
+The research says this is how most of us spend our days.
+
+- A McKinsey Global Institute study (https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy) found office workers spend about 28% of the workweek managing email.
+- Asana's Anatomy of Work research (https://asana.com/resources/why-work-about-work-is-bad) found the average knowledge worker spends about 60% of their time on "work about work": chasing updates, searching for information, and following up.
+- Microsoft's 2025 Work Trend Index (https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) found the most-pinged workers are interrupted by a meeting, email, or message about every two minutes.
+
+Put those together and the picture is clear. The expensive part of a business email is rarely the reply. It's everything around it: figuring out who knows the answer, asking them, remembering to check back, and then piecing the answer together.
+
+## What we built instead
+
+We built an AI that does the middleman part for us. Here's what happens when an email comes in that needs someone else:
+
+- It works out who has the answer. It reads the email and decides which person holds the missing piece.
+- It asks them directly. A short, specific message with the context they need.
+- It watches for their answer, so we don't have to. The moment that person replies, the work picks back up on its own, even if they answer late.
+- It checks before it writes. It pulls the facts from every source it can reach, checks them against the systems they came from, and only then drafts the reply. If something can't be verified, it asks instead of guessing.
+
+The answer itself restarts the work. Nobody has to remember to check.
+
+## What changed
+
+We stopped being the switchboard. Questions that used to sit in our inbox for days now move as fast as the person with the answer. And because every reply is built from checked sources, we trust what goes out.
+
+That's the real point of automation for a small business. It's not about replacing anyone. It's about getting your evenings back, and letting your people spend their time on customers instead of chasing each other.
+
+## Where to start in your business
+
+You don't need our whole setup to feel the difference. Pick the one email loop that drains you most:
+
+- Customer questions that need a number from someone else.
+- Vendor or supplier follow-ups that stall.
+- Approvals that wait on one busy person.
+
+Write down who usually has the answer, and where the facts live. That's the map an AI needs. The rest is wiring, with a person approving anything that matters.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### Running several AI helpers at once: the problem nobody warns you about
+https://lighterhours.com/articles/running-several-ai-helpers-at-once/
+
+AI helpers rarely stall because they aren't smart enough. They stall waiting on you. What the research says about interruptions, and how one screen fixed it.
+
+At first, AI feels like a superpower. Then you have three AI helpers running at once, each one politely waiting for your answer in a different window, and you realize you've built yourself a new job: keeping track of them.
+
+That's the problem nobody warns you about.
+
+## Your attention is the bottleneck
+
+- Microsoft's Work Trend Index (https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) found the most-pinged workers are interrupted by a meeting, email, or message about every two minutes.
+- Research by Gloria Mark at UC Irvine, discussed by the American Psychological Association (https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans), found people now focus on one screen for about 47 seconds on average before switching, and that faster switching means more stress.
+- The APA's research summary on multitasking (https://www.apa.org/topics/research/multitasking) notes that switching between tasks can cost as much as 40% of someone's productive time.
+
+Add several AI helpers to that and you've added more things asking for your attention, not fewer. No wonder Gartner predicts over 40% of agentic AI projects (https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) will be canceled by 2027.
+
+## Where the time actually goes
+
+A good AI helper stops and asks before it does anything important. That's the point. But every question is a small wait, and with several helpers spread across windows, a question can sit for an hour while nobody notices.
+
+When we looked at where our own time went, the AI was rarely the slow part. The slow part was a helper sitting idle, waiting for an answer we hadn't seen.
+
+## One screen for everything
+
+So we built a single screen that shows every helper, what it's working on, and whether it's waiting on someone, in plain words. We can answer it right there, without hunting for the right window. In its first two days, 36 replies went to waiting helpers straight from that screen. Each of those used to be a small hunt.
+
+The rule didn't change: helpers still stop and wait for a person at the moments that matter, and nothing counts as done until someone says so. The screen doesn't remove the human check. It makes the human check fast.
+
+## What this means for a small team
+
+You probably don't need a custom screen on day one. But plan for the moment you have more than one AI helper:
+
+- Know where each helper asks its questions, and check that place at set times.
+- Give each helper a plain name that says what it does.
+- Decide who answers when a helper is waiting, so it isn't everyone and therefore no one.
+
+AI saves the most time when it never sits waiting on an answer nobody saw.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### Will AI mess up with my customers? Test it before you trust it
+https://lighterhours.com/articles/test-ai-before-you-trust-it/
+
+Chatbots have promised refunds, sold a car for $1, and told businesses to break the law. The three checks we run before any AI talks to a customer.
+
+The question we hear most from owners isn't "can AI do this?" It's "what if it says something wrong to a customer?" That's exactly the right worry. One wrong answer can cost more than every hour the AI ever saved.
+
+## It has happened, publicly
+
+- Air Canada's chatbot told a grieving passenger he could claim a refund the airline's policy didn't allow. A tribunal held the airline responsible (https://www.cbsnews.com/news/aircanada-chatbot-discount-customer/).
+- A car dealership's website chatbot was talked into agreeing to sell a new Chevy Tahoe for $1 (https://www.businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12).
+- New York City's official business chatbot told owners to break the law (https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law), from taking workers' tips to refusing cash.
+
+None of these companies set out to embarrass themselves. They trusted the AI before they tested it. The US government's standards agency, NIST, now names pre-deployment testing (https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) as a core safeguard for exactly this reason.
+
+## Our three checks, in plain terms
+
+1. A quiet trial run. First, the AI works in the background where no customer sees it, while your team answers as usual. Then we compare: where did it agree with your people, and where did it get it wrong? It costs your customers nothing.
+
+2. A safety test it has to pass perfectly. Next come the questions where a wrong answer hurts: refunds it can't promise, an upset customer, someone asking about an account that isn't theirs. "Mostly right" isn't good enough. Our most recent customer-facing helper passed 29 of 29 with zero safety failures. If it had failed one, it wouldn't have gone live.
+
+3. A match against your best people. For answers that take judgment, we check whether the AI makes the same call your experienced staff already made. In one recent check, it matched the support rep's decision 47 times out of 47. Only then does it get near anything involving a customer's account.
+
+## After launch, keep checking
+
+Passing the tests isn't the finish line. Early on, a person reads what goes out. And when the AI isn't sure, it hands the customer to a person instead of guessing.
+
+## What to ask anyone selling you AI
+
+- How will we see its answers before customers do?
+- Which mistakes would hurt us most, and how is it tested on those?
+- What does it do when it isn't sure?
+
+If the answers are vague, the AI isn't ready for your customers yet.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### What happens after your AI tool goes live
+https://lighterhours.com/articles/what-happens-after-ai-goes-live/
+
+Launch day is the start. Most AI tools that fail don't fail on day one. They quietly drift. What good upkeep looks like, and what to ask.
+
+Launch day feels like the finish line. Everyone's relieved, the demo worked, the team is excited. Then, a few months later, someone mentions the AI "hasn't been great lately," and nobody can say when it started.
+
+That's how most AI tools fail. Not with a crash on day one. With a slow, quiet slide.
+
+## The research says it's common
+
+- Gartner predicted that at least 30% of generative AI projects would be abandoned after the trial stage (https://thejournal.com/Articles/2024/08/06/Gartner-30-of-Gen-AI-Projects-Will-Be-Abandoned.aspx) by the end of 2025, citing poor data quality, weak risk controls, rising costs, and unclear value.
+- Researchers from Harvard Medical School and MIT tested AI models over time and found their quality degraded in 91% of cases (https://pmc.ncbi.nlm.nih.gov/articles/PMC9270447/), a problem they called "AI aging."
+- The US government's NIST AI Risk Management Framework (https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) calls for ongoing monitoring and regular review of AI systems after they go live, because the world they work in keeps changing.
+
+The tool didn't get dumber. Your business changed around it.
+
+## What good upkeep looks like
+
+It tells you when it breaks. Silence should mean it's working, never that it quietly stopped. Anything your business depends on needs an alert the moment something fails.
+
+It stays safe. Software gets security fixes all the time, and the tools built on it need them too. Updates should be careful and checked, so a fix never becomes a new problem.
+
+It learns from the people using it. Your team sees its mistakes first. Give them an easy way to say "that was wrong," and make sure someone turns those into fixes, regularly.
+
+It earns its place. Not everything you build keeps getting used. A report nobody reads shouldn't keep running just because it exists.
+
+Someone owns it. Every tool needs a named person on your side who checks on it and knows who to call.
+
+## What to ask before you buy
+
+- How will we know if it stops working?
+- Who keeps it updated, and how do we know nothing broke?
+- How do our corrections make it better over time?
+
+If the answers are vague, you're buying a launch, not a tool. A good AI tool is like a good hire: the first week matters, but so does every week after.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### How we let AI answer support tickets without embarrassing anyone
+https://lighterhours.com/articles/ai-support-tickets-without-embarrassment/
+
+Customers dread bad support bots, and they have reason to. How we built AI that answers support tickets without ever bluffing, and what changed.
+
+You know the feeling from the other side. You're stuck, you finally reach out for help, and a chatbot answers something you didn't ask, with total confidence. You type "agent" four times. By the end you're angrier at the company than at the original problem.
+
+Your customers know that feeling too. That's what makes AI support scary for a business owner.
+
+## The fear is justified
+
+- A Gartner survey (https://www.gartner.com/en/newsroom/press-releases/2024-07-09-gartner-survey-finds-64-percent-of-customers-would-prefer-that-companies-didnt-use-ai-for-customer-service) found 64% of customers would prefer companies didn't use AI for customer service, and 53% would consider switching to a competitor over it. Their top worry: it makes it harder to reach a person.
+- When Air Canada's website chatbot gave a grieving passenger wrong refund information (https://www.cbsnews.com/news/aircanada-chatbot-discount-customer/), a tribunal held the airline responsible for what its bot said.
+
+And yet Gartner also predicts (https://www.gartner.com/en/newsroom/press-releases/2025-03-05-gartner-predicts-agentic-ai-will-autonomously-resolve-80-percent-of-common-customer-service-issues-without-human-intervention-by-20290) AI will resolve 80% of common service issues on its own by 2029. Both things are true. AI support is coming, and done carelessly, it costs you customers.
+
+## How we built it differently
+
+When we built an AI that answers support tickets inside a real, busy company, we spent more time on when it should stay quiet than on what it should say.
+
+- It only answers from the company's own approved help content. No improvising, no guessing from the internet.
+- When it isn't sure, it doesn't bluff. The customer gets a quick note that their message was received, and a person takes it from there.
+- Some topics always go to a person. Anything involving money or a promise the AI isn't allowed to make never gets an AI answer.
+- It was tested on real tickets it had never seen before it was trusted, not on hand-picked examples.
+- It gets better every week from the team's corrections, and it never learns from its own answers, so mistakes can't compound.
+
+## What changed
+
+Over 60 days, about 24% of tickets were fully solved by the AI with no staff time. That sounds modest, and it's honest. Each of those was a person who got a right answer in a minute instead of waiting in a queue. Every ticket the AI wasn't sure about still reached a human.
+
+The team didn't lose its job. It lost the repetitive part of it, and got more time for the customers who really needed a person.
+
+## If you're thinking about this
+
+- Start with your most common questions. If you don't have clear written answers yet, writing them is the first project, not the AI.
+- Decide up front which topics a person always handles.
+- Measure one number first, like time to first reply, so you'll know whether it worked.
+
+AI can take real weight off a support team. The trick is building it to know its limits, and checking it like a new hire instead of trusting it like a vending machine.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### Before AI touches your numbers, give it a checker
+https://lighterhours.com/articles/maker-checker-ai-numbers/
+
+AI-written numbers look perfect, which is exactly the danger. Real cases where it went wrong, and the simple rule that keeps it out of your meetings.
+
+Picture the moment. You're presenting numbers to your partners, your bank, or your best client. Someone asks a simple question about one figure, and you realize the AI-built report was wrong. Not obviously wrong. Confidently, beautifully, wrong.
+
+That's the danger with AI and numbers. The formatting is perfect. The mistakes don't look like mistakes.
+
+## It happens to serious people
+
+- Two New York lawyers were fined $5,000 (https://malaysia.news.yahoo.com/york-lawyers-sanctioned-using-fake-220310213.html) after filing a brief with six court cases ChatGPT had made up.
+- Deloitte agreed to partially refund the Australian government (https://www.theregister.com/2025/10/06/deloitte_ai_report_australia/) for a report that included a made-up court quote and references to research that doesn't exist.
+- Stanford researchers found leading AI models gave wrong answers 69% to 88% of the time (https://hai.stanford.edu/news/hallucinating-law-legal-mistakes-large-language-models-are-pervasive) on specific legal questions.
+
+None of these were careless people. They trusted output that looked finished.
+
+## The feed we had to turn off
+
+We learned this ourselves. Early on, we set up a daily summary of AI-written insights about how the business was doing. Every morning, a few sentences on what changed and why. It sounded great.
+
+Then it started raising alarms about problems that didn't exist. Nothing broke, but people started double-checking everything it said, which defeated the purpose. We paused it. The lesson stuck: an AI conclusion needs a second check before anyone sees it.
+
+## The maker-checker rule
+
+Banks have done this forever. The person who prepares a payment isn't the person who approves it. We apply the same rule to AI: whatever builds the numbers never gets the final say on whether they're right. An independent check confirms them first, and nothing reaches leadership until it passes.
+
+## What it caught
+
+The first real audit is why we trust this setup. The check caught records pointing to the wrong place and entries marked inactive by mistake, before the report ever reached leadership. Once those were fixed, the fees matched to the penny.
+
+None of those errors came from the AI being dumb. They were the kind of quiet mismatch a tired person makes at 6 PM too. The difference is that now something catches them every time.
+
+## How to start in your business
+
+- Pick one report that already goes out regularly and that people trust a little too much.
+- Make sure the AI can read your data but never change it.
+- Add the check before you add speed. Speed without a check just moves wrong numbers faster.
+- Keep a person signing off until the check has a few clean months behind it.
+
+The goal isn't to replace the person who knows the numbers. It's to make sure that person never has to say "the AI got it wrong" in a meeting.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### Ask your data in plain English: what it takes to build it safely
+https://lighterhours.com/articles/ask-your-data-in-plain-english/
+
+Every business has someone who becomes the human search engine for numbers. What it's costing you, and what it takes to let staff just ask.
+
+Every business has one. The person everyone asks for numbers. "What did we sell last Tuesday?" "Which store is behind this month?" Each question takes five minutes. Together they eat that person's week, and everyone else waits.
+
+If that's you, you already know how it feels to be the bottleneck.
+
+## You're not the only one stuck
+
+- The McKinsey Global Institute (https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy) found office workers spend nearly 20% of the workweek looking for internal information or tracking down colleagues who can help.
+- Microsoft's Work Trend Index (https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) found 62% of people struggle with too much time spent searching for information, and 86% want AI to help them find answers.
+- In Salesforce's own survey of business leaders (https://www.salesforce.com/news/stories/data-skills-research/), 41% said they can't make sense of their data because it's too complex or hard to get at.
+
+The numbers exist. Getting to them is the problem.
+
+## What we built
+
+So we built a tool where staff type a question the way they'd ask a coworker, and get a table or a chart back, without waiting on anyone. It reaches more people than anything else we've built, and it's the one we were most careful with.
+
+## The promises that make it safe
+
+It can read, never change. If something goes wrong, the worst case is a wrong answer, never damaged data.
+
+It shows its work. Every answer shows where the number came from. People trust numbers more when they can see the source, and they catch mistakes faster too.
+
+It has to pass a test before every release. A set of questions with known right answers. The current version got all 36 right before it went live, and a new version doesn't ship if it misses any.
+
+It gets checked against real use. After launch, we reviewed the questions people actually asked. Real people phrase things in ways you'd never predict, and that's where the gaps show up.
+
+## What changed
+
+The person who used to be the human search engine got their week back. Everyone else stopped waiting. Questions that used to sit in an inbox overnight now take seconds.
+
+## Is this right for your business?
+
+It's a bigger build than most AI projects: think 6 to 10 weeks, not days. It's worth it when:
+
+- Your data already lives in a system you trust.
+- Several people ask number questions every week.
+- Someone is clearly the bottleneck for answers.
+
+If your data lives in scattered spreadsheets, start by getting it into one place. Every AI tool built on messy data inherits the mess.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### Which tasks should you hand to AI first? Four tests
+https://lighterhours.com/articles/which-tasks-to-hand-to-ai-first/
+
+Most AI pilots fail, and it's rarely the technology. Four quick tests to pick a first task that pays off, plus the tasks we'd leave alone.
+
+Maybe you've already tried. You signed up for the AI tool everyone's talking about, got excited for a week, and then it quietly stopped being used. It felt like the problem was you.
+
+It wasn't. You're in very large company.
+
+## Most AI projects don't make it
+
+- MIT's "GenAI Divide" report found about 95% of generative AI pilots (https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) at companies show little to no measurable financial impact. The best returns came from back-office work, not flashy projects.
+- Gartner predicted that at least 30% of generative AI projects (https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025) would be abandoned after the trial stage by the end of 2025.
+- BCG found 74% of companies (https://www.bcg.com/press/24october2024-ai-adoption-in-2024-74-of-companies-struggle-to-achieve-and-scale-value) have yet to show real value from their use of AI.
+
+The pattern behind the failures is usually the same. They started with the biggest, most exciting idea instead of the right one.
+
+## Start by asking the people doing the work
+
+When we help a company bring in AI, we don't start with our own ideas. We start by asking the people stuck doing the work every day: what would you love to take off your plate? The best ideas never come from a leadership slide.
+
+## Then score every idea on four tests
+
+- It happens often. Daily or weekly, not once a quarter. Automating something you do twice a year never pays back.
+- It's text in and text out. Emails, tickets, documents, reports, data. AI is strong here. It can't restock a shelf.
+- It follows rules. If a new hire could do it with a good checklist, AI probably can too.
+- A mistake is cheap to catch. A person can review the result before it matters. If one wrong answer could cost you a customer, it's not a first project.
+
+An idea that passes all four is a great first project. Three out of four can work with a person reviewing each result. Two or fewer: park it.
+
+## One team, one owner, then prove it
+
+Don't launch to everyone. Pick one team, name one person who owns it, and start with AI tools you already pay for. Measure one number before you start, so you can prove it worked. Then move on to the next one.
+
+Looking back at what we've built, the tools that struggled each failed at least one of these tests.
+
+## Tasks we'd leave alone, for now
+
+- Anything physical.
+- Decisions about people: hiring, firing, discipline.
+- Anything where one wrong answer is expensive and nobody would catch it in time.
+- Rare tasks. Automation needs volume to pay off.
+
+## Try it on your own list
+
+Write down five tasks your team complains about. Score each one against the four tests. Start with the winner.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
+
+### What AI automation really costs a small business
+https://lighterhours.com/articles/what-ai-automation-really-costs/
+
+You've heard AI is expensive. The AI part is usually cents per job. Here's where the real cost lives, and what the research says.
+
+Maybe you've sat through a demo, nodded along, and then seen a quote that made your stomach drop. Or maybe you never asked, because you assumed AI is for companies with a data team and a seven-figure budget. Either way, the price feels like a wall.
+
+Here's the honest picture, from what we've built and what the research says.
+
+## The AI itself got cheap, fast
+
+The Stanford AI Index 2025 (https://hai.stanford.edu/ai-index/2025-ai-index-report) found that the cost of running an AI model as capable as early ChatGPT dropped more than 280-fold between late 2022 and late 2024. That matches what we see. Most jobs we run cost a few cents to a few dollars each in AI fees. Turning a screen recording into a step-by-step how-to guide costs about 3 cents.
+
+So why aren't more small businesses using it? The US Census Bureau (https://census.gov/library/stories/2026/05/ai-use-businesses.html) found that only about 1 in 5 US businesses use AI, and the smallest firms lag furthest behind. In an earlier Census study (https://www.census.gov/library/working-papers/2024/adrm/CES-WP-24-16.html), the most common reason businesses gave for not using it was simple: they didn't think it applied to them.
+
+It usually does. The gap isn't the price of the AI. It's knowing where it fits.
+
+## Where the real cost lives
+
+Access. Most of a project's time goes into getting the keys to your own systems: the right permissions, your vendors' approval, accounts set up properly. It's unglamorous, and it's usually the hardest part.
+
+Rules. Someone has to decide what the AI may send, write, and spend. "Nothing goes to a customer without a person's yes" is a rule. Writing rules down is cheap. Skipping them is how AI projects become horror stories.
+
+Keeping it running. Automations break quietly. Something changes, a job stops, and nobody notices for days. We learned that the hard way. Anything your business depends on needs someone watching it and an alert when it fails.
+
+Your team's time. Someone has to own each tool, check its work early on, and speak up when it's wrong. Plan for a few hours a week at the start.
+
+## Can't a $20 AI plan just do all this?
+
+Today's AI can do a surprising amount of the building itself. What it can't do on its own is decide what's safe for your business, sign in as you, or notice when something quietly stops working next month. The tools are cheap. The judgment is the work.
+
+## A rough budget for one workflow
+
+For one focused workflow, like answering common customer questions or a daily numbers report:
+
+- AI fees: usually a few dollars to a few tens of dollars a month.
+- Setup: a one-time project, mostly spent on access and testing.
+- Upkeep: a little time each month to keep it healthy.
+
+If someone quotes you a big monthly software fee for something that could run on tools you already own, ask what you're paying for.
+
+Not sure if this fits your business? Take the 2-minute readiness check (https://lighterhours.com/assessment/) or tell us what's eating your team's week (https://lighterhours.com/#contact).
