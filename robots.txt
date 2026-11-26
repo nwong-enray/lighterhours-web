@@ -1,0 +1,15 @@
+User-Agent: Bytespider
+User-Agent: Diffbot
+User-Agent: ImagesiftBot
+User-Agent: Omgilibot
+User-Agent: omgili
+User-Agent: Timpibot
+User-Agent: PetalBot
+User-Agent: cohere-training-data-crawler
+Disallow: /
+
+User-Agent: *
+Allow: /
+
+Host: https://lighterhours.com
+Sitemap: https://lighterhours.com/sitemap.xml
